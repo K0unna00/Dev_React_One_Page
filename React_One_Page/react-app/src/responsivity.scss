@@ -1,0 +1,99 @@
+@media screen and (max-width: 320px) {
+    .container{
+        width: 270px !important;
+    }
+    .discount{
+        display: none;
+    }
+    header{
+        .container{
+            padding-right: 12px;
+        }
+        nav{
+            display: none;
+        }
+        button{
+            display: none;
+        }
+        img{
+            width: 107px;
+        }
+        .burger-menu{
+            display: block !important;
+            i{
+                font-size: 32px;
+            }
+        }
+    }
+    .hero{
+        padding: 16px !important;
+        text-align: center;
+        display: block;
+        img{
+            display: none;
+        }
+        .title{
+            display: block;
+            font-weight: 700;
+            font-size: 26px !important;
+            line-height: 28px !important;
+        }
+        button{
+            margin: 0 auto;
+        }
+    }
+    .statistics ul{
+        flex-direction: column;
+        text-align: center;
+        li{
+            margin: 10px 0;
+        }
+    }
+    .course{
+        display: block;
+        text-align: center;
+        height: fit-content !important;
+        .card{
+            width: 100%;
+            justify-content: center !important;
+            padding: 0;
+            .content{
+                width: 100%;
+                align-items: center;
+                padding: 0 10px;
+                .duration{
+                    margin-top: 10px;
+                }
+                .title{
+                    font-size: 22px;
+                }
+            }
+            .right{
+                display: none;
+            }
+        }
+    }
+    .education{
+        text-align: center;
+        img{
+            display: none;
+        }
+        ul{
+            display: block;
+            li{
+                margin: 0 auto;
+                width: 70%;
+            }
+        }
+    }
+    .experts{
+        text-align: center;
+        li{
+            display: none;
+        }
+        li:first-child{
+            display: block;
+            width: 100%;
+        }
+    }
+  }
